@@ -1,62 +1,72 @@
-https://www.youtube.com/watch?v=ot1LRr3ez5Q
+**Github Reference:**  
+https://github.com/freelancer-surender/Angular---Hero-to-Superhero/tree/master/dashboard  
 
+**Piechart Modif Component Github Reference:**  
+https://github.com/jamesguru/CHARTS/blob/master/src/app/app.component.ts
+
+**Youtube Reference:**  
+https://www.youtube.com/watch?v=ot1LRr3ez5Q  
+
+**Make Angular Project**
 ```sh
 ng new dashboard
 ```
 
-SCSS  
-no angular routing
+**Choose This Options**  
+1. SCSS  
+2. no angular routing
 
 ```sh
 cd dashboard
 ```
 
-make header component
+**make header component**
 ```sh
 ng g c header
 ```
 
-make side-nav component
+**make side-nav component**
 ```sh
 ng g c side-nav
 ```
 
-make main component
+**make main component**
 ```sh
 ng g c main
 ```
 
-make top-widgets component
+**make top-widgets component**
 ```sh
 ng g c top-widgets
 ```
 
-make sales-by-month component
+**make sales-by-month component**
 ```sh
 ng g c sales-by-month
 ```
 
-make sales-by-category component
+**make sales-by-category component**
 ```sh
 ng g c sales-by-category
 ```
 
-make last-few-transactions component
+**make last-few-transactions component**
 ```sh
 ng g c last-few-transactions
 ```
 
-make top-three-products component
+**make top-three-products component**
 ```sh
 ng g c top-three-products
 ```
 
-start the serve
+**run the project**
 ```sh
 ng s
+ng serve
 ```
 
-copy paste this code to the styles.scss
+**copy paste this code to the styles.scss**
 ``` scss
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
@@ -89,7 +99,7 @@ body {
 }
 ```
 
-modify the app.component.html
+**modify the app.component.html**
 ``` html
 <div class="container">
   <div class="header">
@@ -106,7 +116,7 @@ modify the app.component.html
 </div>
 ```
 
-modify the app.component.scss file
+**modify the app.component.scss file**
 ``` scss
 .main-container {
   display: flex;
@@ -128,8 +138,8 @@ modify the app.component.scss file
 }
 ```
 
-make the header component
-modify the header.component.html file
+**make the header**   
+**modify the header.component.html file**
 ``` html
 <div class="header">
     <div class="logo">Logo</div>
@@ -140,7 +150,7 @@ modify the header.component.html file
   </div>
 ```
 
-modify the header.component.scss file
+**modify the header.component.scss file**
 ``` scss
 .header {
     height: 70px;
@@ -174,8 +184,8 @@ modify the header.component.scss file
   }
 ```
 
-make side-nav component
-modify the side-nav.component.html file
+**make side-nav component**  
+**modify the side-nav.component.html file**
 ``` html
 <div class="nav-items">
   <div class="nav-item">
@@ -213,7 +223,7 @@ modify the side-nav.component.html file
 </div>
 
 ```
-modify the side-nav.component.scss file
+**modify the side-nav.component.scss file**
 ``` scss
 .nav-items {
   padding-top: 40px;

@@ -12,6 +12,7 @@ import { LastFewTransactionsComponent } from './last-few-transactions/last-few-t
 import { TopThreeProductsComponent } from './top-three-products/top-three-products.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ChartModule } from 'angular-highcharts';
+import { PieChartModifComponent } from './pie-chart-modif/pie-chart-modif.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ChartModule } from 'angular-highcharts';
     SalesByMonthComponent,
     SalesByCategoryComponent,
     LastFewTransactionsComponent,
-    TopThreeProductsComponent
+    TopThreeProductsComponent,
+    PieChartModifComponent
   ],
   imports: [
     BrowserModule,
