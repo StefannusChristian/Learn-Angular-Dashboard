@@ -2,15 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { Chart } from 'angular-highcharts';
 
 @Component({
-  selector: 'app-sales-by-month',
-  templateUrl: './sales-by-month.component.html',
-  styleUrls: ['./sales-by-month.component.scss']
+  selector: 'app-combine-chart',
+  templateUrl: './combine-chart.component.html',
+  styleUrls: ['./combine-chart.component.scss']
 })
-export class SalesByMonthComponent implements OnInit {
 
+export class CombineChartComponent implements OnInit {
   chart = new Chart({
     chart: {
-      type: 'line',
       height: 325
     },
     title: {
@@ -40,13 +39,13 @@ export class SalesByMonthComponent implements OnInit {
     series: [
       {
         name: "Arizona",
-        type: "line",
+        type: 'column', // Set the type to 'column' for vertical bars
         color: '#044342',
         data: [70, 69, 95, 145, 182, 215, 252, 265, 233, 183, 139, 196]
       },
       {
         name: 'Connecticut',
-        type: 'line',
+        type: 'column', // Set the type to 'column' for vertical bars
         color: '#7e0505',
         data: [
           47, 52, 44, 35, 58, 69, 32, 53, 71, 82, 99, 159
@@ -54,12 +53,20 @@ export class SalesByMonthComponent implements OnInit {
       },
       {
         name: 'Ohio',
-        type: 'line',
+        type: 'column', // Set the type to 'column' for vertical bars
         color: '#ed9e20',
         data: [
           17, 22, 14, 25, 18, 19, 22, 43, 11, 32, 29, 59
         ]
       },
+      {
+        name: 'Average', // Line chart for average line
+        type: 'line',
+        color: '#6920fb',
+        data: [
+          45, 47, 51, 68, 86, 101, 102, 120, 105, 82, 72, 138
+        ]
+      }
     ],
     credits: {
       enabled: false
