@@ -261,7 +261,7 @@ go to this link to check the compatibility of the font awesome with your angular
 im using angular 16.2 so the fontawesome code that i will used will be 0.13.0
 
 ```sh
-ng add @fortawesome/angular-fontawesome@0.13.0
+ng add @fontawesome/angular-fontawesome@0.13.0
 ```
 
 change side-nav.component.ts to this to add the faicons to the side nav
