@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Chart } from 'angular-highcharts';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +7,10 @@ import { Chart } from 'angular-highcharts';
 })
 
 export class AppComponent {
+  isBasicTutorial: boolean = false;
+
+  changePageStatus(): void {
+    this.isBasicTutorial = !this.isBasicTutorial;
+  }
 
 }
