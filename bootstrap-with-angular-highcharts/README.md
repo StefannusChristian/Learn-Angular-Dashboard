@@ -1,3 +1,11 @@
+
+**Youtube Tutorial Playlist:**  
+[Youtube Tutorial Playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR)
+
+**Github Reference:**  
+[Github Reference](https://github.com/iamshaunjp/bootstrap-5-tutorial/tree/main)
+
+****
 **Make Angular Project**
 ```sh
 ng new bootstrap-with-angular-highcharts
@@ -9,7 +17,7 @@ npm install -g @angular/cli
 ```
 
 **Bootstrap Documentation:**  
-[https://github.com/freelancer-surender/Angular---Hero-to-Superhero/tree/master/dashboard ](https://getbootstrap.com/)
+[Bootstrap Documentation](https://getbootstrap.com/)
 
 **Add Angular Highchart To Project**  
 
