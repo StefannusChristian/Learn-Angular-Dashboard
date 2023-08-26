@@ -30,7 +30,13 @@ npm i --save angular-highcharts highcharts
 npm install --save bootstrap
 ```
 
+**Add Bootstrap Icons To Project**
+```sh
+npm i bootstrap-icons --save
+```
+
 **Add this line to `angular.json` in the styles to apply bootstrap to the project**
 ```sh
 node_modules/bootstrap/dist/css/bootstrap.min.css
+node_modules/bootstrap-icons/font/bootstrap-icons.css
 ```

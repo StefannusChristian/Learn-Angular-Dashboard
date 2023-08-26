@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './grid-layout-tutorial.component.html',
   styleUrls: ['./grid-layout-tutorial.component.css']
 })
-export class GridLayoutTutorialComponent {
 
+export class GridLayoutTutorialComponent {
 }
